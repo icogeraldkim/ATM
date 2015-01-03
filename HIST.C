@@ -24,7 +24,7 @@ char *month(int m)
 	return mmm;
 }
 
-int hist() 
+void hist() 
 {
 	int i=0,h=1,x,y,sm,sd,sy,em,ed,ey,id=0,rs=0;
 	char *buf,k=' ',*mmm,seD[17]="mmddyyyymmddyyyy ",cd[17]="mmddyyyymmddyyyy ",r=' ';
